@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Practice1 {
 
     // step 1
@@ -10,6 +12,11 @@ public class Practice1 {
 
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        System.out.println("Hello world please enter your number");
+        Scanner scan = new Scanner(System.in);
+        scan.nextInt();
+
+
+
     }
 }
